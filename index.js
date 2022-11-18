@@ -86,7 +86,7 @@ app.post("/login", async (req, res) => {
     }
 })
 
-app.post("/inserttodo",auth,async(req,res)=>{
+app.post("/inserttodos",auth,async(req,res)=>{
     try {
         const todo = req.body.todo;
         if(todo){
